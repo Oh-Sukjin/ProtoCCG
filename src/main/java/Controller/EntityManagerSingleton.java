@@ -1,4 +1,4 @@
-package com.demo.jpa;
+package Controller;
 
 import jakarta.persistence.*;
 

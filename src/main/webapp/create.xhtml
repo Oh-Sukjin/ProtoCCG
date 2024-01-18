@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Création billet</title>
+</h:head>
+<h:body>
+
+    <h1>Création billet</h1>
+
+
+    <h:form>
+
+        <h:outputLabel for="titre"/>
+        <h:inputTextarea id="titre" value="#{textareaBean.titre}"
+                         rows="1" cols="30"/>
+        <br/>
+
+        <h:outputLabel for="auteur"/>
+        <h:inputTextarea id="auteur" value="#{textareaBean.auteur}"
+                         rows="1" cols="30"/>
+        <br/>
+        <h:outputLabel for="text"/>
+        <h:inputTextarea id="text" value="#{textareaBean.text}"
+                         rows="6" cols="30"/>
+
+
+
+
+        <h:commandButton value="Ajouter" action="#{billetBlogBean.addBillet()}"/>
+    </h:form>
+
+    <h:commandButton value="Aller à la Page Accueil" action="#{navBlog.goToAccueil}" />
+<!--    <h:commandButton value="Aller à la Page Création" action="#{navBlog.goToCreate}" />-->
+    <h:commandButton value="Aller à la Page Affichage" action="#{navBlog.goToAffiche}" />
+
+<!--    <h3>Liste des Billets</h3>-->
+
+<!--    <ul>-->
+<!--        <table border="1">-->
+<!--            <tr>-->
+<!--                <th>Titre</th>-->
+<!--                <th>Auteur</th>-->
+<!--                <th>Texte</th>-->
+<!--            </tr>-->
+<!--            <ui:repeat value="#{billetBlogBean.liste}" var="billet">-->
+<!--                <tr>-->
+<!--                    <td>#{billet.titreBillet}</td>-->
+<!--                    <td>#{billet.auteurBillet}</td>-->
+<!--                    <td>#{billet.textBillet}</td>-->
+<!--                </tr>-->
+<!--            </ui:repeat>-->
+
+<!--        </table>-->
+
+<!--    </ul>-->
+
+</h:body>
+</html>

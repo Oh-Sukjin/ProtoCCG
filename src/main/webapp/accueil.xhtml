@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Accueil</title>
+</h:head>
+<h:body>
+
+    <h1>Accueil</h1>
+    <h:form>
+        <h:commandButton value="Aller à la Page Création" action="#{navBlog.goToCreate}" />
+        <h:commandButton value="Aller à la Page Affichage" action="#{navBlog.goToAffiche}" />
+    </h:form>
+
+
+    <h1>Liste des billets</h1>
+    <ul>
+        <ui:repeat value="#{billetBlogBean.liste}" var="billet">
+            <li>#{billet.titreBillet}</li>
+                <!--            <td>#{billet.auteurBillet}</td>-->
+                <!--            <td>#{billet.textBillet}</td>-->
+        </ui:repeat>
+    </ul>
+
+
+</h:body>
+</html>
