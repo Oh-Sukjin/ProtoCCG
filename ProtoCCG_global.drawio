@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-18T10:05:28.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="rvauQh3mZAMBu8JNuC22" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2024-01-18T16:44:20.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="fPj5gS6EQ0x4sqeV2eEU" version="22.1.2" type="device">
   <diagram name="Page-1" id="AkaGAUE7mnN1P4NVNvN_">
-    <mxGraphModel dx="973" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="1330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,6 +104,64 @@
         </mxCell>
         <mxCell id="vonDVaXlhUjf3Hpiizpn-51" value="public void attack(Integer dp);&lt;br&gt;public void defend(Integer dp);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-47">
           <mxGeometry y="120" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-53" value="d" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="590" y="250" as="sourcePoint" />
+            <mxPoint x="670" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-58" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="-460" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-54" value="PJ" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-58">
+          <mxGeometry width="117.09558823529412" height="117.09558823529412" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-55" value="HP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-58">
+          <mxGeometry x="72.20904761904765" y="72.21333333333331" width="44.88664215686275" height="44.88664215686275" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-80" value="Points d&#39;Action" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-58">
+          <mxGeometry width="41.819852941176464" height="41.819852941176464" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="600" y="-360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-62" value="PJ" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-61">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-63" value="HP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-61">
+          <mxGeometry y="37" width="23" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-69" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="-463" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-70" value="Carte" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-69">
+          <mxGeometry width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-71" value="DP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-69">
+          <mxGeometry x="80" y="80.00333333333334" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-78" value="Points d&#39;Action" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-69">
+          <mxGeometry width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.114;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.02;exitY=0.618;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vonDVaXlhUjf3Hpiizpn-71" target="vonDVaXlhUjf3Hpiizpn-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="-300" as="sourcePoint" />
+            <mxPoint x="600" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-74" value="Inflige des dégats" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-76" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.052;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.992;exitY=0.337;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vonDVaXlhUjf3Hpiizpn-54" target="vonDVaXlhUjf3Hpiizpn-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="-280" as="sourcePoint" />
+            <mxPoint x="605" y="-301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vonDVaXlhUjf3Hpiizpn-77" value="Joue" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="vonDVaXlhUjf3Hpiizpn-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
