@@ -1,7 +1,7 @@
 
 # ProtoCCF
 # Description
- Prototype pour un jeu de type Collectible Card Game
+ Prototype pour un jeu de type Tower Defense Collectible Card Game, TDCCG
 # v0.01 : 
 - Création du projet ProtoCCG sur c:\Users\Recyclinfo\Documents\Java\Intro 
 - Création UML gameplay et UML Java global
@@ -13,3 +13,4 @@
 - Création de ./Tests/TestGenericDAO.java
 - Création de ./Tests/Tests.java
 - Création de la BDD protoccg via pgAdmin4
+- Rédaction de Description.md
