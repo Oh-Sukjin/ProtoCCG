@@ -16,11 +16,11 @@ public class Character {
     private Integer dp;
     private Integer actionPoint;
 
+    @OneToMany
     public List<Character> charactersList = new ArrayList<>();
 
     public Character() {
     }
-
     public Character(String characName, Integer hp, Integer dp, Integer actionPoint) {
         this.characName = characName;
         this.hp = hp;

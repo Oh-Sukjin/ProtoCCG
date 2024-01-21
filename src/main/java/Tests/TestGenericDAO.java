@@ -29,7 +29,7 @@ public class TestGenericDAO {
 
     @Test
     public void testFindByIdBefore(){
-    Card card = GenericDAO.findById(Card.class, 1);
+      Card card = GenericDAO.findById(Card.class, 1);
         System.out.println(card);
 }
 

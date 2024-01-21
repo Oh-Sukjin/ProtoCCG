@@ -1,45 +1,41 @@
 
 # ProtoCCF
+
 # Description du jeu
-# Le but du jeu
-Le joueur (Pj) doit protéger la tour (Tower) des attaques ennemies (Waves).
-Pour protéger la tour, il dispose d'objets offensifs et d'objets défensifs, représentés sour forme de cartes(Card).
-Chaque carte nécessite n apts pour être posée
+Le jeu se joue dans un navigateur web.
 
--------- Les règles du jeu
-Quand la tour n'a plus de rp, la partie est terminée.
+## Le but du jeu
+Le joueur (**Pj**) doit protéger la tour (**Tower**) des attaques ennemies (**Waves**).
 
--------- Les éléments du jeu
-La tour est représentée avec les attributs suivants :
-points de résistance (rpts)
-points de protection (ppts)
-points de dégats (dpts)
-Le Pj dispose de n points d'action(apts)
-Pour protéger la tour, il dispose d'objets offensifs et d'objets défensifs, représentés sour forme de cartes(Card).
-Chaque carte nécessite n apts pour être posée
-Les cartes offensives génèrent les dpts
-Les cartes défensives génèrent les ppts
-Le joueur doit remplir un sac (Sac) avec des objets issus de son stock (Stock)
-Le sac ne peut pas contenir plus de 3 objets (cartes) identiques
-Le sac ne peut pas contenir plus de 50 objets
+## Les règles du jeu
+Le Pj dispose de n points d'action (**apts**). Il gagne un point par tour.</br>
+Pour protéger la tour, il dispose d'objets offensifs et d'objets défensifs, représentés sour forme de cartes (**Card**).</br>
+Chaque carte nécessite n points d'action pour être jouée.</br>
+Quand la tour n'a plus de rpts, la partie est terminée.
 
-Pour protéger la tour, il dispose d'objets offensifs et d'objets défensifs, représentés sour forme de cartes(Card).
+## Les éléments du jeu
+La tour et la vague sont représentées avec les attributs suivants :
+- points de résistance (**rpts**)
+- points de protection (**ppts**)
+- points de dégats (**dpts**)
+Les cartes offensives infligent les dpts.</br>
+Les cartes défensives génèrent les ppts.</br>
+Le joueur doit remplir un sac (**Backpack**) avec des objets issus de son stock (**Stock**)</br>
+Le sac ne peut pas contenir plus de 3 objets identiques.</br>
+Le sac ne peut pas contenir plus de 50 objets.
 
+## Début du tour
+Le joueur reçoit 7 objets aléatoirement au 1er tour pour constituer son arsenal (Arsenal), puis une seule carte par tour.</br>
+Si le pj a assez de apts, il pose n cartes.</br>
+Le pj clique sur le bouton "Démarrer".</br>
 
-Le joueur débute la vague quand il est prêt, en cliquant sur un bouton.
+## Combat
+La résolution se déroule dans l'ordre suivant :</br>
+- Si le pj a posé des cartes offensives, on calcule les dégâts effectués par la tour (par l'addition des dpts des cartes) sur la vague.
+- Si la vague a encore des rpts, elle effectue des dégâts à la tour
+- Si le pj a posé des cartes défensives, on diminue les dpts de la vague en leur retirant les ppts de la carte.</br>
 
-Début du tour
-Le joueur reçoit 7 objets aléatoirement qui constitue son arsenal(Arsenal)
-Si le pj a assez de apts, il pose n cartes
-Le pj clique sur le bouton "
-Combat
-La résolution se déroule dans l'ordre suivant
-Si le pj a posé des cartes offensives, on calcule les dégâts effectués par la tour (par l'addition des dpts des cartes) sur la vague.
-Si la vague a encore des rpts, elle effectue des dégâts
-Si le pj a posé des cartes défensives, on diminue les dpts de la vague en leur retirant les .ppts de la carte.
-
-Quand la tour n'a plus de rp, la partie est terminée.
-Quand la vague n'a plus de rp, on passe à la fin du tour
-
-
-Fin du tour
+## Fin du tour
+Si la tour n'a plus de rpts, la partie est terminée.</br>
+Si la vague n'a plus de rpts, on passe à la vague suivante.</br>
+Si la vague a encore des rpts, on fait un nouveau tour.</br>
