@@ -17,15 +17,16 @@ Quand la tour n'a plus de rpts, la partie est terminée.
 La tour et la vague sont représentées avec les attributs suivants :
 - points de résistance (**rpts**)
 - points de protection (**ppts**)
-- points de dégats (**dpts**)
+- points de dégats (**dpts**).</br>
+Chaque carte possède un coût (**cost**) qui correspond aux apts nécessaires pour la jouer.
 Les cartes offensives infligent les dpts.</br>
 Les cartes défensives génèrent les ppts.</br>
-Le joueur doit remplir un sac (**Backpack**) avec des objets issus de son stock (**Stock**)</br>
+Le joueur doit remplir un sac (**Learned**) avec des objets issus de son stock (**Library**)</br>
 Le sac ne peut pas contenir plus de 3 objets identiques.</br>
 Le sac ne peut pas contenir plus de 50 objets.
 
 ## Début du tour
-Le joueur reçoit 7 objets aléatoirement au 1er tour pour constituer son arsenal (Arsenal), puis une seule carte par tour.</br>
+Le joueur reçoit 7 objets aléatoirement au 1er tour pour constituer son arsenal (**Equipped**), puis une seule carte par tour.</br>
 Si le pj a assez de apts, il pose n cartes.</br>
 Le pj clique sur le bouton "Démarrer".</br>
 
