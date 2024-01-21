@@ -14,18 +14,27 @@ public class Card {
     private String nameCard;
     private Integer cost;
     private String description;
+    private Integer type;
+//1 => offensive
+//2 => defensive
+//3 => support
     private Integer category;
-
+//1 => fire
+//2 => water
+//3 => earth
+//3 => air
+//    fire > water > earth > air > fire
 
     public Card() {
     }
 
-    public Card(String nameCard, Integer cost, String description, Integer category) {
+    public Card(String nameCard, Integer cost, String description, Integer type, Integer category) {
         this.nameCard = nameCard;
         this.cost = cost;
         this.description = description;
+        this.type = type;
         this.category = category;
-    }
+           }
 
     @ManyToMany
     public List<Card> cardsList = new ArrayList<>();
@@ -36,8 +45,10 @@ public class Card {
                 "id=" + id +
                 ", nameCard='" + nameCard + '\'' +
                 ", cost=" + cost +
-                ", desciption='" + description + '\'' +
+                ", description='" + description + '\'' +
+                ", type=" + type +
                 ", category=" + category +
+                ", cardsList=" + cardsList +
                 '}';
     }
 
@@ -71,6 +82,22 @@ public class Card {
 
     public void setDescription(String desciption) {
         this.description = desciption;
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
+    public List<Card> getCardsList() {
+        return cardsList;
+    }
+
+    public void setCardsList(List<Card> cardsList) {
+        this.cardsList = cardsList;
     }
 
     public Integer getCategory() {

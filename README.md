@@ -14,3 +14,8 @@
 - Création de ./Tests/Tests.java
 - Création de la BDD protoccg via pgAdmin4
 - Rédaction de Description.md
+
+# v0.01a : 
+- Diagramme gameplay terminé
+- Diagramme des classes terminé
+- Diagramme de l'affichage terminé
